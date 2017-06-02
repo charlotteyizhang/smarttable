@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>D3 data visualisation</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body> 
+  <div>
+    <h1>Communication data visualisation</h1>
+    <form class="choose-bar">
+      <label>Dataset:</label>
+      <label><input type="radio" name="file" value="0" checked> Child-Mother</label>
+      <label><input type="radio" name="file" value="1"> Couples</label>
+      <label><input type="radio" name="file" value="2"> Course mates A</label>
+      <label><input type="radio" name="file" value="3"> Course mates B</label>
+      <label><input type="radio" name="file" value="4"> Course mates C</label>
+      <label><input type="radio" name="file" value="5"> Course mates D</label>
+    </form>
+    <div id="canvas" class="canvas"></div>
+  </div>
+  <!-- <script src="css/Chart.min.js"></script> -->
+   <script src="https://d3js.org/d3.v3.min.js"></script>
+   <script src="js/draw.js"></script>
+</body>
+</html>
+

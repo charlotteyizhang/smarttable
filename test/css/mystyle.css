@@ -1,0 +1,46 @@
+/*!
+Styles
+*/
+/* =============================================================================
+  RESETS
+============================================================================= */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+}
+svg {
+  font: 2em ,"Helvetica Neue", Helvetica, Arial, sans-serif-serif;
+  font-weight: 100;
+}
+
+rect {
+  opacity: .5;
+}
+
+h1 {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.choose-bar{
+	margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.canvas{
+	max-width: 1000px;
+	max-height: 700px;
+	margin: 50px auto;
+}
+
+.bin2{
+	z-index: 10;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
